@@ -1,0 +1,41 @@
+*{
+    margin: 0; 
+}
+body{
+    background-color: rgb(62, 30, 96);
+    /* width: 1200px; */
+    /* height: 800px; */
+}
+.page{
+    color: rgb(185, 134, 3);
+    background-color: rgba(31, 3, 45, 0.9);
+    border: 2px solid rgba(68, 17, 66, 0.8);
+    border-radius: 15px;
+    width: 1037px;
+    height: 550px;
+    padding: 50px;
+    margin: 100px 50px 100px 150px;
+}
+.page h1,
+.page .but h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.page img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px;
+    border-radius: 100px;
+}
+.page .but{
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.page .but button{
+    color: rgb(42, 16, 66);
+    background-color: rgb(165, 146, 23);
+    margin-right: 20px;
+    border-radius: 15px;
+}
